@@ -1,0 +1,88 @@
+// ======================================
+
+ // All Layout TS Style
+ @mixin red-box {
+  border: 1px solid $red;
+}
+
+  // All Button Styles
+  @mixin button {
+    color: $white;
+    border-radius: 4px;
+    padding: .9rem 2.5rem;
+    margin: .75rem .25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    @include flexbox-button-s {
+      padding: .9rem 3rem;
+      width: 100%;
+    }
+    @include flexbox-button-l {
+      padding: .9rem 3rem;
+    }
+  }
+  
+    // All Grid System Styles
+    @mixin grid {
+      @include flexbox;
+      color: $gray;
+      border-radius: 4px;
+      padding: .9rem;
+      margin: .25rem;
+    }
+
+// All Media Queries
+@mixin media {
+    @media (min-width: $lg) {
+        @content;
+     }
+  } 
+  
+  // All Flexbox Settings
+  @mixin flexbox {
+    @media (max-width: $sm) {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    @media (min-width: $sl) {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    @content;
+  }
+  
+  @mixin flexbox-lg {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  @mixin flexbox-button-s {
+    @media (max-width: $sm) {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    @content;
+    @if (min-width == $sm) {
+      max-width: auto;
+    }
+  }
+  @mixin flexbox-button-l {
+    @media (min-width: $sl) {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    @content;
+  }
+
+  // All Navigation Styles
+  @mixin nav-spc {
+    padding: .9rem 1rem;
+    margin: .75rem .25rem;
+    @include media {
+      margin: 1.5rem .25rem 0;
+    }
+  }

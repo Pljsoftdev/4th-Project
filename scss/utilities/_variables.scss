@@ -1,0 +1,68 @@
+// ======================================
+//  Variables
+// ======================================
+
+// Colors (light and dark)
+$white: #fff;
+$teal: #58e1c1;
+
+$blue: #5ddffc;
+$blue-light: lighten($blue,15%);
+$blue-dark: darken($blue, 15%);
+
+$berry: #e4757a;
+$berry-light: lighten($berry, 15%);
+$berry-dark: darken($berry, 15%);
+
+$red: #fd7856;
+$red-light: lighten($red, 15%);
+$red-dark: darken($red, 15%);
+
+$purple: #927bc1;
+$purple-light: lighten($purple, 15%);
+$purple-dark: darken($purple, 15%);
+
+$green: #63cc82;
+$green-light: lighten($green, 15%);
+$green-dark: darken($green, 15%);
+
+$gray: #808080;
+$gray-light: lighten($gray, 15%);
+$gray-dark: darken($gray, 15%);
+
+
+
+// The Button Colors MAP
+$btn-colors: (
+  'default': $blue,
+  'success': $green,
+    'error': $berry,
+  'warning': $red,
+     'info': $purple,
+);
+
+
+
+// The Theme Colors MAP
+$themes: (
+    '3': $purple-light,
+    '4': $blue,
+    '5': $green-light,
+    '6': $blue-dark,
+    '7': $berry-light,
+    '8': $red-light,
+   '12': $teal,
+);
+
+// Webpage Fonts
+$font-stack: "Neue Helvetica", Helvetica, sans-serif;
+$heading-stack: "Neue Helvetica Thin", Helvetica, sans-serif;
+
+// Viewport Webpage Breakpoints
+$mnw: 'min-width:';
+$mxw: 'max-width:';
+$sm: 480px;
+$sl: 481px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
