@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+/* line 11, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -17,6 +18,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+/* line 23, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 body {
   margin: 0;
 }
@@ -24,6 +26,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
+/* line 31, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 main {
   display: block;
 }
@@ -32,6 +35,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+/* line 40, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -43,6 +47,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+/* line 53, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -56,6 +61,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 64, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -68,6 +74,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
+/* line 76, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -76,6 +83,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+/* line 85, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -88,6 +96,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+/* line 95, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -97,6 +106,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 105, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -109,6 +119,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
+/* line 116, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -117,6 +128,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+/* line 125, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -125,10 +137,12 @@ sup {
   vertical-align: baseline;
 }
 
+/* line 133, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
+/* line 137, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -138,6 +152,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
+/* line 148, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 img {
   border-style: none;
 }
@@ -148,6 +163,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
+/* line 160, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -167,6 +183,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+/* line 176, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -177,6 +194,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+/* line 186, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -186,20 +204,22 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
+/* line 195, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
+/* line 206, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -207,16 +227,18 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
+/* line 218, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
 /**
  * Correct the padding in Firefox.
  */
+/* line 229, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -227,6 +249,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+/* line 240, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -245,6 +268,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+/* line 253, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -252,6 +276,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
+/* line 261, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -260,8 +285,9 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
+/* line 270, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -271,8 +297,9 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+/* line 280, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -280,7 +307,8 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+/* line 290, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -290,7 +318,8 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+/* line 299, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -298,6 +327,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+/* line 308, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -310,6 +340,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
+/* line 320, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 details {
   display: block;
 }
@@ -317,6 +348,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
+/* line 328, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 summary {
   display: list-item;
 }
@@ -326,6 +358,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
+/* line 339, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 template {
   display: none;
 }
@@ -333,6 +366,7 @@ template {
 /**
  * Add the correct display in IE 10.
  */
+/* line 347, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -340,16 +374,19 @@ template {
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
+/* line 5, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_typography.scss */
 * {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #808080;
   box-sizing: border-box;
 }
 
+/* line 11, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_typography.scss */
 p {
   line-height: 1.45em;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_typography.scss */
 a {
   text-decoration: none;
 }
@@ -357,21 +394,25 @@ a {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
 }
 
+/* line 29, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #808080;
 }
 
+/* line 34, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_typography.scss */
 .link {
   color: #5ddffc;
   font-weight: 700;
 }
 
+/* line 39, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
@@ -385,152 +426,187 @@ a {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
+/* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--default {
   color: #fff;
   border-radius: 4px;
-  padding: 0.9rem 2.5rem;
-  margin: 0.75rem 0.25rem;
+  padding: .9rem 2.5rem;
+  margin: .75rem .25rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   border: none;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
   width: 100%;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
 }
+
 @media (max-width: 480px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--default {
     display: flex;
     flex-direction: column;
     flex: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--default {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 9, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--default.theme_col {
   background-color: #5ddffc;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--success {
   color: #fff;
   border-radius: 4px;
-  padding: 0.9rem 2.5rem;
-  margin: 0.75rem 0.25rem;
+  padding: .9rem 2.5rem;
+  margin: .75rem .25rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   border: none;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
   width: 100%;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
 }
+
 @media (max-width: 480px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--success {
     display: flex;
     flex-direction: column;
     flex: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--success {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 9, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--success.theme_col {
   background-color: #63cc82;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--error {
   color: #fff;
   border-radius: 4px;
-  padding: 0.9rem 2.5rem;
-  margin: 0.75rem 0.25rem;
+  padding: .9rem 2.5rem;
+  margin: .75rem .25rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   border: none;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
   width: 100%;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
 }
+
 @media (max-width: 480px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--error {
     display: flex;
     flex-direction: column;
     flex: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--error {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 9, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--error.theme_col {
   background-color: #e4757a;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--warning {
   color: #fff;
   border-radius: 4px;
-  padding: 0.9rem 2.5rem;
-  margin: 0.75rem 0.25rem;
+  padding: .9rem 2.5rem;
+  margin: .75rem .25rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   border: none;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
   width: 100%;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
 }
+
 @media (max-width: 480px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--warning {
     display: flex;
     flex-direction: column;
     flex: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--warning {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 9, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--warning.theme_col {
   background-color: #fd7856;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--info {
   color: #fff;
   border-radius: 4px;
-  padding: 0.9rem 2.5rem;
-  margin: 0.75rem 0.25rem;
+  padding: .9rem 2.5rem;
+  margin: .75rem .25rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   border: none;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
   width: 100%;
-  padding: 0.9rem 3rem;
+  padding: .9rem 3rem;
 }
+
 @media (max-width: 480px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--info {
     display: flex;
     flex-direction: column;
     flex: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 7, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
   .btn--info {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 9, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_buttons.scss */
 .btn--info.theme_col {
   background-color: #927bc1;
 }
@@ -538,10 +614,12 @@ a {
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
+/* line 5, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_forms.scss */
 .form {
   flex-basis: 100%;
 }
 
+/* line 9, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_forms.scss */
 .input {
   display: block;
   width: 94%;
@@ -551,6 +629,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
+/* line 18, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_forms.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -563,33 +642,48 @@ a {
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
+/* line 5, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_navigation.scss */
 .nav-link {
   text-align: center;
-  padding: 0.9rem 1rem;
-  margin: 0.75rem 0.25rem;
+  padding: .9rem 1rem;
+  margin: .75rem .25rem;
 }
+
 @media (min-width: 1024px) {
+  /* line 5, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_navigation.scss */
   .nav-link {
-    margin: 1.5rem 0.25rem 0;
+    margin: 1.5rem .25rem 0;
   }
 }
+
+/* line 8, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_navigation.scss */
 .nav-link a {
   text-decoration: none;
 }
+
+/* line 10, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_navigation.scss */
 .nav-link a:link {
   color: #808080;
 }
+
+/* line 13, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_navigation.scss */
 .nav-link a:visited {
   color: #5ddffc;
 }
+
+/* line 17, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_navigation.scss */
 .nav-link:hover {
   background-color: #58e1c1;
   border-radius: 5px;
 }
+
+/* line 20, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_navigation.scss */
 .nav-link:hover a {
   color: #fff;
 }
+
 @media (min-width: 1024px) {
+  /* line 5, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_navigation.scss */
   .nav-link {
     display: inline-block;
     font-size: 1.1rem;
@@ -599,6 +693,7 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+/* line 5, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_images.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -608,6 +703,7 @@ a {
   max-height: 100%;
 }
 
+/* line 14, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -618,6 +714,7 @@ a {
   border: 1px solid #ccc;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -627,16 +724,19 @@ a {
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
+/* line 5, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .container {
   padding: 0 10px;
 }
 
+/* line 9, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -645,247 +745,317 @@ a {
   border-radius: 5px;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-2 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-2 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-2 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-3 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-3 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-3 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 27, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-3.theme_col {
   background-color: #bdafd9;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-4 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-4 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-4 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 27, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-4.theme_col {
   background-color: #5ddffc;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-5 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-5 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-5 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 27, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-5.theme_col {
   background-color: #9ddfb0;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-6 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-6 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-6 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 27, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-6.theme_col {
   background-color: #12d0fb;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-7 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-7 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-7 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 27, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-7.theme_col {
   background-color: #f1b5b8;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-8 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-8 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-8 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 27, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-8.theme_col {
   background-color: #feb4a2;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-9 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-9 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-9 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-10 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-10 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-10 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-11 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-11 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-11 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-12 {
   color: #808080;
   border-radius: 4px;
-  padding: 0.9rem;
-  margin: 0.25rem;
+  padding: .9rem;
+  margin: .25rem;
 }
+
 @media (max-width: 480px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-12 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 }
+
 @media (min-width: 481px) {
+  /* line 24, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
   .col-12 {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/* line 27, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .col-12.theme_col {
   background-color: #58e1c1;
 }
 
+/* line 34, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_grid.scss */
 .card {
   flex-basis: 100%;
 }
@@ -894,99 +1064,100 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
+  /* line 6, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-
+  /* line 13, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-
+  /* line 19, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .row {
     flex-direction: row;
   }
-
+  /* line 23, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   [class^=col] {
     display: flex;
     margin-top: 0;
     align-items: center;
   }
-
+  /* line 29, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-
+  /* line 33, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-
+  /* line 37, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-
+  /* line 41, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-3 {
-    flex-basis: 25%;
+    flex-basis: 25.00%;
   }
-
+  /* line 45, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-
+  /* line 49, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-
+  /* line 53, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-6 {
-    flex-basis: 50%;
+    flex-basis: 50.00%;
   }
-
+  /* line 57, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-
+  /* line 61, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-
+  /* line 65, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-9 {
-    flex-basis: 75%;
+    flex-basis: 75.00%;
   }
-
+  /* line 69, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-
+  /* line 73, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-
+  /* line 77, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .col-12 {
     flex-basis: 100%;
   }
-
+  /* line 81, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-
+  /* line 87, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
-
+  /* line 91, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
-
+  /* line 95, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-
+  /* line 99, ../../../../../../../../../../../../../Users/philliplaw/Desktop/Treehouse Coding Projects/4th Project/scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
